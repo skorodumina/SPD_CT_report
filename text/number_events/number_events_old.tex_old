@@ -1,0 +1,155 @@
+\newpage
+\chapter{Event rate estimation}
+\mbox{}\vspace{-\baselineskip}
+
+This Chapter presents estimation of the number of events that are expected to be produced in the investigated process (proton knock-out from a deuteron) at $\sqrt{s}=15.2$~GeV. The estimation is performed based on the theoretical cross section approximation obtained in the framework of the generalized eikonal approach supplemented by the quantum diffusion model of CT~\cite{Frankfurt:1996uz,PhysRevC.107.014605,Larionov:2025equ}.
+
+
+Figure~\ref{fig:model} presents theoretical predictions for the differential cross section of the $pd\rightarrow ppn$ process as a function of the transverse momentum of the spectator neutron ($p_{st}$) for $\alpha_{s} =1$, $t=-8.2$~GeV$^2$ (which corresponds to $\theta_{c.m.}=46^{o}$), and $\phi=\pi$ (see Chapter~\ref{Chap:kin} for the definition of the kinematic variables). 
+
+
+The solid magenta curve in Fig.~\ref{fig:model} stands for the impulse approximation (IA), which corresponds to the case when only the amplitude of the hard $pp$ interaction is considered, meaning that no interactions with the spectator neutron ($p_{s}$) took place in the initial nor final state (see Fig.~\ref{fig:diagram}). This would correspond to the regime of complete (100\%) color transparency, which is however not expected to be reached at the energies of the proposed experiment. The solid blue curve corresponds to the full calculation in the framework of the generalized eikonal approximation (GEA) with all amplitudes included (both ``hard" and ``soft" parts).
+
+To produce the black curves in Fig.~\ref{fig:model}, contributions from CT effects were included according to the quantum diffusion model of CT with different values of $\Delta M^{2}$, which is the model free parameter that reflects the strength of CT effects (with lower values of $\Delta M^{2}$ corresponding to stronger CT effects). As seen from Fig.~\ref{fig:model}, the dashed black curve (plotted for a low value of $\Delta M^{2}=0.7$~GeV$^2$) is close to the impulse approximation, which indicates strong color tansparency effects. In turn, the solid black curve (plotted for a high value of $\Delta M^{2}=3$~GeV$^2$) is close to the full GEA calculation without CT effects, implying relatively small CT contributions.
+
+\newpage
+
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[width=7.8cm]{pictures/model.pdf}
+\caption{\small Theoretical predictions for the differential cross section of the $pd\rightarrow ppn$ process as a function of the transverse momentum of the spectator neutron ($p_{st}$)~\cite{Frankfurt:1996uz,PhysRevC.107.014605,Larionov:2025equ}. The solid magenta curve shows the impulse approximation (IA) and the solid blue curve corresponds to the full GEA calculation (both ``hard" and ``soft" parts). For the black curves, CT effects were included according to the quantum diffusion model of CT with different values of $\Delta M^{2}$ (specified in the plot). The calculations were performed for the following values of the remaining kinematic variables, $\alpha_{s} = 1$, $t=-8.2$~GeV$^{2}$ (which corresponds to $\theta_{c.m.}=46^{o}$), and $\phi=\pi$. } \label{fig:model}
+\end{center}
+\end{figure}
+
+
+From the theoretical perspective, it would be interesting to investigate the interplay of different reaction mechnisms at different $p_{st}$ values, e.g., at lower $p_{st}\sim 0.2$~GeV/c, nuclear absorption effects are expected to dominate, while for higher $p_{st}\gtrsim 0.3$~GeV/c, rescattering of the final particles off the spectator is thought to play the major role. Therefore, experimental measurements that cover any fairly large part of the region of $0.2$~GeV/c~$<p_{st}<0.5$~GeV/c are expected to deliver new information regarding CT effects.
+
+%From the theoretical perspective, the most informative the region of $0.2$~GeV/c$<p_{st}<0.5$~GeV/c is considered to be the most informative for the study of CT effects:
+
+It is also noteworthy that maxumim CT contribution is achieved at $\theta_{c.m.}=90^{o}$ (the hard proccess in transverse kinematics). However, taking into account that the cross section drops quickly with $t$, measurements are proposed to be performed at $\theta_{c.m.}<90^{o}$, which will increase the contribution from the ``soft" amplitudes (thus leading to smaller CT effects), but will allow for much higher event rate.
+
+The model calculations suggest that the CT contribution changes significantly in different regions in $\phi$. Therefore (if statistics allows), we suggest to measure the $\phi$-dependence of the cross section, too. This is however not mandatory because the model analysis of the $\phi$-integated cross section will still be capable of delivering informative conclusions about CT effects.
+
+In addition to that, it would also be preferential to restrict the value of $\alpha_{s}$ and to perform measurements at $\alpha_{s}\sim 1$ as this will select the transverse kinematics and minimize relativistic corrections to the deuteron wave function.
+
+\newpage
+
+\begin{table}[htp]
+\begin{center}
+\caption{\small Theoretical estimations for the cross section values at three different points in $p_{st}$. ``GEA" stands for the calculations performed within the generalized eikonal approximation, while ``CT3" corresponds to the case when contributions from the color transparency effects were included in the framework of the quantum diﬀusion model with the free parameter $\Delta M^{2}=3$~GeV$^{2}$ (see Refs.~\cite{Frankfurt:1996uz,PhysRevC.107.014605,Larionov:2025equ} for details). The calculations were performed for the following values of the remaining kinematic variables, $\alpha_{s} = 1$, $t=-8.2$~GeV$^{2}$ (which corresponds to $\theta_{c.m.}=46^{o}$), and $\phi=\pi$.  \label{tab:cr_sect_est}}
+\begin{tabular}{
+   !{\vrule width 2pt}
+  c!{\vrule width 1pt}   
+  c!{\vrule width 1pt}
+  c!{\vrule width 1pt}
+  c!{\vrule width 2pt}
+ }
+\toprule[2pt]
+\multirow{2}{*}{\makecell{Model}}&  \multicolumn{3}{c!{\vrule width 2pt}}{Cross section value, $\mu$b}  \\ \hhline{|~|---|}
+&  \makecell{$p_{st}=0.1~\textrm{GeV/c}$} & \makecell{$p_{st}=0.2~\textrm{GeV/c}$} &\makecell{$p_{st}=0.3~\textrm{GeV/c}$}  \\ \hline
+GEA& $44.9\cdot 10^{-3}$ & $0.63\cdot 10^{-3}$ & $0.39\cdot 10^{-3}$ \\ \hline
+CT3& $50.3\cdot 10^{-3}$ & $1.0\cdot 10^{-3}$ & $0.28\cdot 10^{-3}$ \\  
+\bottomrule[2pt] 
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+\begin{table}[htp]
+\begin{center}
+\caption{\small Estimated number of events per year for three different points in $p_{st}$ and two possible luminosity values. The estimation also accounts for two theoretical cross section approximations (``GEA" and ``CT3") described in the context of Tab.~\ref{tab:cr_sect_est}, which provides the corresponding cross section values for the same kinematic points. The estimation was performed according to Eq.~\eqref{eq:n_events}, using the following bin widths for the kinematic variables, $\Delta \alpha_{s} = 0.2$, $\Delta t = 2.5$~GeV$^{2}$, $\Delta \phi = \pi/3$, and $\Delta p_{st} = 0.04$~GeV/c, experiment duration $T=10^{7}$~s (1 year), and the cross section values presented in Tab.~\ref{tab:cr_sect_est}.  \label{tab:event_per_year}}
+\begin{tabular}{
+   !{\vrule width 2pt}
+  c!{\vrule width 2pt}
+  c!{\vrule width 2pt}
+  c!{\vrule width 1pt}
+  c!{\vrule width 1pt}
+  c!{\vrule width 2pt}
+  }
+\toprule[2pt]
+\multirow{2}{*}{\makecell{Luminosity\\ $\textrm{cm}^{-2}\textrm{s}^{-1}$}} &\multirow{2}{*}{\makecell{Model}} &\multicolumn{3}{c!{\vrule width 2pt}}{Number of events per year}  \\ \hhline{|~~|---|}
+ &&\makecell{$p_{st}=0.1~\textrm{GeV/c}$} & \makecell{$p_{st}=0.2~\textrm{GeV/c}$} &\makecell{$p_{st}=0.3~\textrm{GeV/c}$}  \\ \hline
+\multirow{2}{*}{$\mathcal{L} = 2.7\cdot 10^{30}$}&GEA  &2539  &\textcolor{red}{\bf 71}  &66 \\ \hhline{|~|----|}
+&CT3  &2844  &\textcolor{red}{\bf 113}  &48 \\ \midrule[2pt]
+\multirow{2}{*}{$\mathcal{L} = 10^{31}$}&GEA  &9402  &\textcolor{red}{\bf 264}  &245 \\ \hhline{|~|----|}
+&CT3 &10532  &\textcolor{red}{\bf 418} &176    \\ 
+\bottomrule[2pt]
+\end{tabular}
+\end{center}
+\end{table}
+\newpage
+
+%\multirow{2}{*}{$\mathcal{L} = 10^{32}$}&GEA  &1.752  &0.664  &0.85  \\ \hhline{|~|----|}
+%&CT3 &3.989  &10.465 &0.84  \\
+%\bottomrule[2pt]
+
+The following expression connects the number of events in a particular kinematic bin $\Delta^{4}\tau = \Delta\alpha_{s} \Delta t \Delta \phi \Delta p_{st}$ with the differential cross section of the investigated process in the center of this bin. 
+
+\begin{equation}
+\begin{aligned}
+&\Delta N (\Delta^{4}\tau ) = \mathcal{L} \cdot \frac{\textrm{d}^{4}\sigma}{p_{\textrm{st}}\textrm{d}p_{\textrm{st}}\textrm{d}\alpha_{s}\textrm{d}t \textrm{d}\phi } \cdot p_{st} \cdot \Delta \alpha_{s} \cdot \Delta t \cdot \Delta \phi \cdot \Delta p_{st} \cdot T.
+\end{aligned}\label{eq:n_events}
+\end{equation}
+Here $\mathcal{L}$ is the luminosity of the experiment, $\Delta \alpha_{s}$, $\Delta t$, $\Delta \phi$, and $\Delta p_{st}$ are the bin widths in all four kinematic variables, and $T$ is the duration of the experiment. In Eq.~\eqref{eq:n_events}, $\alpha_{s}$ is considered to be equal to unity, and therefore is not present in the numerator of the expression for the differential cross section.
+
+\newpage
+
+%$\Delta N_{\sigma} = N_{CT3} -N_{GEA}$,   $f=\frac{\Delta N_{\sigma}}{N_{GEA}}$
+
+From the theoretical perspective, $\sigma_{GEA}$ corresponds to the cross section calculated within the generalized eikonal approximation without color transparency effects, while $\sigma_{CT3}$ corresponds to the case when contributions from the color transparency effects were included in the framework of the quantum diﬀusion model with the free parameter $\Delta M^{2}=3$~GeV$^{2}$ (see Refs.~\cite{Frankfurt:1996uz,PhysRevC.107.014605,Larionov:2025equ} for details). Therefore, for the proposed experiment, one needs to estimate the statistics that would allow one to distinguish between $\sigma_{GEA}$ and $\sigma_{CT3}$ on a stage of theoretical analysis in order to make a decisive conclusion regarding CT contributions.
+
+
+To perform this estimation, it is convenient to introduce the following variables, $\varepsilon$ -- the accuracy with which the absolute difference between $\sigma_{GEA}$ and $\sigma_{CT3}$ is proposed to be measured and $f=\frac{N_{CT3} -N_{GEA}}{N_{GEA}}=\frac{\Delta N_{\sigma}}{N_{GEA}}$ -- the relative difference between the corresponding cross sections. Then the following derivations can be performed in order to estimate the desired statistics.
+
+\begin{equation}
+\begin{aligned}
+\sqrt{N_{\varepsilon}} & = && \varepsilon \cdot \Delta N_{\sigma} \\
+\sqrt{N_{\varepsilon}} & = && \varepsilon \cdot f \cdot  N_{\varepsilon}\\
+1 & = && \varepsilon \cdot f \cdot \sqrt{N_{\varepsilon}}\\
+N_{\varepsilon} &=&& \frac{1}{\varepsilon^{2} \cdot f^{2}}
+\end{aligned}\label{eq:n_evt_eps} 
+\end{equation}
+
+From Tab.~\ref{tab:event_per_year}, for $p_{st} = 0.2$~GeV/c, the relative difference between the cross section values can be estimated as $f = 0.6$. Therefore, according to Eq.~\eqref{eq:n_evt_eps}, for the accuracy $\varepsilon$ = 20\%, the desired number of events $N_{\varepsilon} = 69$. This would correspond to about 129 days of continuous data-taking for $\mathcal{L} = 2.7\cdot 10^{30}\textrm{cm}^{-2}\textrm{s}^{-1}$ and about 35 days of continuous data-taking for $\mathcal{L} = 10^{31}\textrm{cm}^{-2}\textrm{s}^{-1}$.
+
+\newpage
+
+\begin{equation*}
+\begin{aligned}
+&F = [\mathcal{L}]\times [\mu \textrm{b}\rightarrow \textrm{cm}^{2}] \times [\Delta \alpha_{s} \Delta t \Delta \phi \Delta p_{st}] \times [\textrm{time}]\\[20pt]
+&F = \left[2.7\cdot 10^{30}\textrm{cm}^{-2}\textrm{s}^{-1}\right] \times \left[10^{-30}\textrm{cm}^{2}\right] \times \left[ 0.2 \cdot 2.5 \cdot 1.047 \cdot 0.04 \right] \times \left[10^{7} s\right] = 565.38\cdot 10^{3}\\[20pt]
+\end{aligned}\label{eq:rrr}
+\end{equation*}
+
+%24 \cdot 60 \cdot 60 \cdot 365~\textrm{s}
+
+------------------------------------------------------------------------------------------
+
+\begin{equation*}
+\begin{aligned}
+&p_{st}=0.2~\textrm{GeV/c}\\[20pt]
+&\frac{\textrm{d}^{4}\sigma}{p_{\textrm{st}}\textrm{d}p_{\textrm{st}}\textrm{d}\alpha_{s}\textrm{d}t \textrm{d}\phi }= 1.0\cdot 10^{-3} \mu \textrm{b} /\textrm{GeV}^{4} ~~~\left[ \textrm{at}~~p_{st} = 0.2~\textrm{GeV/c},~\textrm{for}~CT3 \right]\\[20pt]
+&N = \frac{\textrm{d}^{4}\sigma}{p_{\textrm{st}}\textrm{d}p_{\textrm{st}}\textrm{d}\alpha_{s}\textrm{d}t \textrm{d}\phi } \times p_{st} \times F = 1.0\cdot 10^{-3}\times 0.2 \times 565.38\cdot 10^{3} = \textcolor{red}{\bf 113}
+\end{aligned}\label{eq:rrr}
+\end{equation*}
+
+------------------------------------------------------------------------------------------
+
+
+
+
+
+\begin{equation*}
+\begin{aligned}
+&p_{st}=0.1~\textrm{GeV/c}\\[20pt]
+&\frac{\textrm{d}^{4}\sigma}{p_{\textrm{st}}\textrm{d}p_{\textrm{st}}\textrm{d}\alpha_{s}\textrm{d}t \textrm{d}\phi }= 50.3\cdot 10^{-3} \mu \textrm{b} /\textrm{GeV}^{4} ~~~\left[ \textrm{at}~~p_{st} = 0.1~\textrm{GeV/c},~\textrm{for}~CT3 \right]\\[20pt]
+&N = \frac{\textrm{d}^{4}\sigma}{p_{\textrm{st}}\textrm{d}p_{\textrm{st}}\textrm{d}\alpha_{s}\textrm{d}t \textrm{d}\phi } \times p_{st} \times F = 50.3\cdot 10^{-3}\times 0.1 \times 565.38 \cdot 10^{3} =  \textcolor{red}{\bf 2844}
+\end{aligned}\label{eq:rrr}
+\end{equation*}
+
+
+------------------------------------------------------------------------------------------
+
